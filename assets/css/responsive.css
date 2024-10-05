@@ -1,0 +1,26 @@
+@media (max-width: 1050px){
+    .nav-menus{
+        display: none;
+    }
+    .bar i{
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+@media (max-width: 480px){
+    .logo img{
+        width: 200px;
+    }
+}
+@media (max-width: 375px){
+    /* .logo img{
+        margin-right: 20px;
+    } */
+     .header-row{
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+     }
+}

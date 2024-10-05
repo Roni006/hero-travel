@@ -1,0 +1,113 @@
+/*
+AUTHOR NAME: ANIK ISLAM
+TEMPLETE NAME: HERO TRAVEL
+VERSION: 1.0.0
+*/
+
+
+/* ROOT VARIABLES  */
+:root {
+    --whit--color: #fff;
+    --black-color: #000;
+    --global-fonts: "Mulish", sans-serif;
+    --nav-menu-color: #424247;
+    --nav-menu-hover-color: #FF5400;
+
+}
+
+/* ESSENTIAL SET UP  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--global-fonts);
+
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1178px;
+    margin: 0 auto;
+}
+
+/*HEADER SECTION START  */
+/* .header-section{
+
+} */
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 65px;
+}
+.nav-menus{
+    display: flex;
+    /* gap: 20px; */
+}
+.nav-menus li{
+    list-style: none;
+}
+.nav-menus li a{
+    text-decoration: none;
+    font-size: 18px; 
+    padding: 0 22px;
+    color: var(--nav-menu-color);
+    font-weight: 600;
+    transition: 0.2s;
+}
+.nav-menus li a:hover{
+    color: var(--nav-menu-hover-color);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.bar i{
+    background-color: var(--nav-menu-hover-color);
+    color: var(--whit--color);
+    padding: 10px 18px;
+    font-size: 22px;
+    display: none;
+    visibility: hidden;
+}
+/*HEADER SECTION END */
+
+
+/* SECTION START  */
+/* SECTION END */
