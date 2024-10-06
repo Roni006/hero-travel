@@ -30,6 +30,11 @@
     }
 }
 
+@media(max-width: 868px){
+    .wcu-content{
+        padding: 0 180px;
+    }
+}
 
 @media(max-width: 730px){
     .hero-text p{
@@ -37,6 +42,15 @@
     }
     .hero-title h1{
         font-size: 45px;
+    }
+    .wcu-title h2{
+        font-size: 30px;
+    }
+    .wcu-content{
+        padding: 0 180px;
+    }
+    .wcu-content{
+        padding: 0 120px;
     }
 }
 
@@ -46,6 +60,9 @@
     .tour-text2 p {
         width: 100%;
         text-align: justify;
+    }
+    .wcu-content{
+        padding: 0 30px;
     }
     
 }
