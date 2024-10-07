@@ -14,6 +14,8 @@ VERSION: 1.0.0
     --nav-menu-hover-color: #FF5400;
     --wcu-box-bg: rgba(251, 181, 99, 0.12);
     --wcu-box-hover-bg: rgba(41, 206, 246, 0.05);
+    --green-color: #D8EFD3;
+    --doscount-box-location: #5A5A5D ;
 
 }
 
@@ -43,7 +45,7 @@ h3 {
 }
 
 h4 {
-    font-size: 24;
+    font-size: 24px;
 }
 
 h5 {
@@ -310,8 +312,126 @@ nav {
     margin: 30px 0 15px 0;
     font-weight: 800;
 }
- 
 /*WHY CHOOSE US SECTION END */
 
+/*DISCOUNT SECTION START  */
+/* .discount-block{
+    position: relative;
+    margin-top: 50px;
+}
+.discount-box img{
+    width: 100%;
+}
+.discount-details{
+    background: var(--white--color);
+    padding: 50px 77px 50px 50px;
+    width: 580px;
+    border-radius: 16px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    opacity: 0.8;
+    
+}
+.discount-details2{
+    background: var(--white--color);
+    padding: 50px 77px 50px 50px;
+    width: 580px;
+    border-radius: 16px;
+    position: absolute;
+    top: 580px;
+    left: 50px;
+    opacity: 0.8;
+}
+.discount-details3{
+    background: var(--white--color);
+    padding: 50px 77px 50px 50px;
+    width: 580px;
+    border-radius: 16px;
+    position: absolute;
+    top: 1095px;
+    right: 50px;
+    opacity: 0.8;
+}
+.discount-box{
+    margin-bottom: 20px;
+}
+.box-location{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    color: var(--doscount-box-location);
+}
+.box-title h4{
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.box-text p{
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.box-price{
+    font-weight: 800;
+    color: var(--nav-menu-hover-color);
+    margin-bottom: 16px;
+}
+.box-btn a{
+    text-decoration: none;
+    color: var(--white--color);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--nav-menu-hover-color);
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
+} */
+/*DISCOUNT SECTION END */
+
+
+/*SIMPLE PERFECT SECTION START  */
+.simpleperfect-section{
+
+}
+.simple-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.simple-title h2{
+    font-size: 800;
+    line-height: 45px;
+    margin-bottom: 25px;
+}
+.simple-text p{
+    font-size: 16px;
+    /* width: 532px; */
+    margin-bottom: 25px;
+}
+.simple-list ul li{
+    font-size: 16px;
+    margin-bottom: 15px;  
+}
+.simple-list ul{
+    padding-left: 25px; 
+}
+.simple-btn a{
+    background-color: var(--nav-menu-hover-color);
+    color: var(--white--color);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 40px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.video{
+    border-radius:16px;
+}
+/*SIMPLE PERFECT SECTION END */
 /* SECTION START  */
 /* SECTION END */
