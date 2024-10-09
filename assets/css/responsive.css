@@ -63,12 +63,18 @@
     .wcu-content{
         padding: 0 120px;
     }
+    .footer-text p{
+        padding: 0 130px;
+    }
 }
 
 @media(max-width: 630px){
     .video{
         /* width: 570px; */
         width: 100%;
+    }
+    .footer-text p{
+        padding: 0 100px;
     }
 }
 
@@ -81,6 +87,10 @@
     }
     .wcu-content{
         padding: 0 30px;
+    }
+    .footer-text p{
+        padding: 0;
+        width: 100%;
     }
     
 }
