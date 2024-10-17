@@ -317,9 +317,72 @@ nav {
 }
 /*WHY CHOOSE US SECTION END */
 
-/*DISCOUNT SECTION START  */
 
+/*DISCOUNT SECTION START  */
+.discount-section{
+    padding: 90px 0;
+    overflow: hidden;
+}
+.discount-content{
+    margin-top: 50px;
+}
+.discount-img{
+    background-image: url(../Images/discount1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 55px 55px 0;
+    justify-content: space-between;
+    border-radius: 20px; 
+    margin-bottom: 25px;
+}
+.discount-right{
+    background-color: var(--white--color);
+    opacity: 0.9;
+    border: 2px solid var(--white-color);
+    padding: 50px;
+    border-radius: 18px;
+}
+
+.date-time{
+    display: flex;
+}
+.time p{
+    margin-right: 8px;
+    font-size: 16px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.discount-title h4{
+    font-weight: 800;
+    margin: 25px 0 15px 0;
+}
+.discount-text p{
+    font-size: 16px;
+    width: 450px;
+}
+.discount-price h5{
+    font-weight: 800;
+    margin-top: 15px;
+    color: var(--nav-menu-hover-color);
+}
+.discount-btn a{
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--white--color);
+    background-color: var(--nav-menu-hover-color);
+    padding: 15px 25px;
+    border-radius: 8px ;
+    display: inline-block;
+    margin-top: 25px;
+}
 /*DISCOUNT SECTION END */
+
 
 
 /*SIMPLE PERFECT SECTION START  */
