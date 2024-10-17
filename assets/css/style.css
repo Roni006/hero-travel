@@ -318,79 +318,68 @@ nav {
 /*WHY CHOOSE US SECTION END */
 
 /*DISCOUNT SECTION START  */
-/* .discount-block{
-    position: relative;
+.discount-section{
+    padding: 90px 0;
+    overflow: hidden;
+}
+.discount-content{
     margin-top: 50px;
 }
-.discount-box img{
-    width: 100%;
+.discount-img{
+    background-image: url(../Images/discount1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 55px 55px 0;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 25px;
 }
-.discount-details{
-    background: var(--white--color);
-    padding: 50px 77px 50px 50px;
-    width: 580px;
-    border-radius: 16px;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    opacity: 0.8;
-    
+.discount-right{
+    background-color: var(--white--color);
+    opacity: 0.9;
+    border: 2px solid var(--white-color);
+    padding: 50px;
+    border-radius: 18px;
 }
-.discount-details2{
-    background: var(--white--color);
-    padding: 50px 77px 50px 50px;
-    width: 580px;
-    border-radius: 16px;
-    position: absolute;
-    top: 580px;
-    left: 50px;
-    opacity: 0.8;
+
+.date-time{
+    display: flex;
 }
-.discount-details3{
-    background: var(--white--color);
-    padding: 50px 77px 50px 50px;
-    width: 580px;
-    border-radius: 16px;
-    position: absolute;
-    top: 1095px;
-    right: 50px;
-    opacity: 0.8;
+.time p{
+    margin-right: 8px;
+    font-size: 16px;
 }
-.discount-box{
-    margin-bottom: 20px;
-}
-.box-location{
+.time{
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 25px;
-    color: var(--doscount-box-location);
+    gap: 5px;
 }
-.box-title h4{
-    margin-bottom: 16px;
+.discount-title h4{
     font-weight: 800;
+    margin: 25px 0 15px 0;
 }
-.box-text p{
-    text-align: justify;
+.discount-text p{
     font-size: 16px;
-    margin-bottom: 16px;
+    width: 450px;
 }
-.box-price{
+.discount-price h5{
     font-weight: 800;
+    margin-top: 15px;
     color: var(--nav-menu-hover-color);
-    margin-bottom: 16px;
 }
-.box-btn a{
+.discount-btn a{
     text-decoration: none;
+    font-weight: 800;
     color: var(--white--color);
-    font-size: 20px;
-    font-weight: 600;
     background-color: var(--nav-menu-hover-color);
     padding: 15px 25px;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border-radius: 8px ;
     display: inline-block;
-} */
+    margin-top: 25px;
+}
 /*DISCOUNT SECTION END */
 
 
